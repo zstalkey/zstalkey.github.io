@@ -1,0 +1,125 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+}
+.header{background-color: green;}
+#header{
+    color: white;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4rem;
+    line-height: normal;
+}
+
+.footer{background-color: green;}
+#footer{
+    display:flex;
+    color: white;
+    text-align: left;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+    line-height: normal;
+}
+#name{
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-size: 3rem;
+    margin: 5px;
+}
+.title{
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    margin: 5px;
+}
+.paragraph{
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-size: 1rem;
+}
+#position{
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+}
+.logoimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hanginimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+}
+.button{
+    width:300px;
+    background-color: green; color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-style: bold;
+    padding: 10px;
+  }
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color:white;
+    text-decoration: none;
+    margin:5px;
+    display:inline-block;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+    font-style: bold;
+}
+.alignright{float: right;
+    margin: 200px;
+    width: 10%;
+    border: 3px solid green;
+    padding: 30px;
+    margin-right: 600px;}
+    
+
+    .my-col{
+        border: 3px dotted red;
+    }
+
+    .my-row{
+        height: 200px; 
+        border: 3px solid blue
+    }
+
+    .form{
+        margin: 0 auto;
+        width: 400px;
+        text-align:center;
+        font-family:'Poiret One', cursive;
+      }
+      input,textarea{
+        width:100%;
+        line-height:1.5;
+        margin:10px;
+        font-family:'Julius Sans One', sans-serif;
+        text-align:left;
+        font-size:18px;
+      }
+      button{
+        background-color:green;
+        color:white;
+        border-style:none;
+        padding:20px;
+        margin:10px;
+        font-family:'Julius Sans One', sans-serif;
+        text-transform:uppercase;
+        font-weight:600;
+        border-radius:10px;
+        font-size:20px;
+      }
+
+      .my-container{
+          border: 3px solid black; 
+      }
