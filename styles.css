@@ -33,6 +33,7 @@ body{
     font-family: 'Poiret One', cursive;
     font-size: 2rem;
     margin: 5px;
+    text-align: center;
 }
 .paragraph{
     color: black;
@@ -85,12 +86,12 @@ a:hover, a:active{
     
 
     .my-col{
-        border: 3px dotted red;
+        display: flex;
     }
 
-    .my-row{
-        height: 200px; 
-        border: 3px solid blue
+    .my-row-about{
+        height: 755px; 
+        
     }
 
     .form{
@@ -122,4 +123,13 @@ a:hover, a:active{
 
       .my-container{
           border: 3px solid black; 
+      }
+
+      .row-button{
+          height: 200px;
+      }
+      .row{
+          margin: 10px; 
+          justify-content: center; 
+          align-items: center;
       }
