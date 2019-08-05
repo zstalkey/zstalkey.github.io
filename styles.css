@@ -13,6 +13,17 @@ body{
     line-height: normal;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #header{
+        color: white;
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 3rem;
+        line-height: normal;
+    } 
+}
+
 .footer{background-color: green;}
 #footer{
     display:flex;
@@ -64,6 +75,23 @@ body{
     font-style: bold;
     padding: 10px;
   }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .button{
+        width:150px;
+        background-color: green; color: white;
+        font-family: 'Poiret One', cursive;
+        font-size: 1rem;
+        font-style: bold;
+        padding: 5px;
+      } 
+      .my-row-about{
+        height: 0px; 
+        
+    }
+}
+
 a:link, a:visited {
     color: white;
     text-decoration: none;
@@ -108,6 +136,27 @@ a:hover, a:active{
         text-align:left;
         font-size:18px;
       }
+
+      /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .form{
+        margin: 0 auto;
+        width: 250px;
+        text-align:center;
+        font-family:'Poiret One', cursive;
+      }
+      input,textarea{
+        width:100%;
+        line-height:1.5;
+        margin:10px;
+        font-family:'Julius Sans One', sans-serif;
+        text-align:left;
+        font-size:18px;
+      }  
+
+}
+
+
       button{
         background-color:green;
         color:white;
